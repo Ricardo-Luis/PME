@@ -58,7 +58,7 @@ md"""
 TITLE = "Electrical Machines Design"
 
 # ╔═╡ a0057e4c-0bcf-4970-8a2b-0412ad5af510
-SUBTITLE = "reactive notebooks"
+SUBTITLE = ""
 
 # ╔═╡ 4be56e57-fea0-4fbe-9659-44bed594b1b2
 INSTITUTION = "DEEEA·MEE"
