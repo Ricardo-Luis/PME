@@ -58,7 +58,7 @@ md"""
 TITLE = "Electrical Machines Design"
 
 # ╔═╡ a0057e4c-0bcf-4970-8a2b-0412ad5af510
-SUBTITLE = "Reactive notebooks"
+SUBTITLE = "reactive notebooks"
 
 # ╔═╡ 4be56e57-fea0-4fbe-9659-44bed594b1b2
 INSTITUTION = "DEEEA·MEE"
@@ -262,10 +262,10 @@ function sidebar_code(book_model)
     <div style="line-height:38px; font-weight: bold; margin-bottom: 0.5em; opacity: 0.6"> $(TERM) | $(INSTITUTION)</div>
     <h1><a href="https://www.isel.pt/en/mee/electrical-machines-design" style="line-height:38px">$(TITLE)</a></h1>
     <h2><a href="https://github.com/fonsp/Pluto.jl">
-    <img src="$(SLASH_PREPATH)/Pluto_inv.png" style="width: 70px; height: auto; vertical-align: text-bottom"></a> $(SUBTITLE)</h2>
+    <img src="$(SLASH_PREPATH)/Pluto_inv.png" style="width: 50px; height: auto; vertical-align: middle"></a> $(SUBTITLE)</h2>
     <div style="line-height:38px; font-size: 15px; opacity: 0.85"><!--by--> $(INSTRUCTORS)</div>
     </div>
-    <br>
+    <!--<br>-->
     <style>
     </style>
     <nav class="sidebar-nav" style="opacity: 0.9">
