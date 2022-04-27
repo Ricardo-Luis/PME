@@ -58,13 +58,13 @@ md"""
 TITLE = "Electrical Machines Design"
 
 # ╔═╡ a0057e4c-0bcf-4970-8a2b-0412ad5af510
-SUBTITLE = "reactive notebooks"
+SUBTITLE = "Pluto.jl · reactive notebooks"
 
 # ╔═╡ 4be56e57-fea0-4fbe-9659-44bed594b1b2
-INSTITUTION = "DEEEA·MEE"
+INSTITUTION = "DEEEA · MEE"
 
 # ╔═╡ ab7186a4-2287-41da-a939-70f142bfeacd
-TERM = "2022·2023"
+TERM = "2022 · 2023"
 
 # ╔═╡ 83130e69-9b67-44b5-ad32-500162abc0d2
 md"""
@@ -254,16 +254,15 @@ function sidebar_code(book_model)
     <div class="sidebar-about">
     <br>
     <a href="https://www.isel.pt/">
-    <img src="$(SLASH_PREPATH)/isel_logo.png" style="width: 170px; height: auto; vertical-align: middle; display: inline">
+    <img src="$(SLASH_PREPATH)/isel_logo.png" style="width: 170px; height: auto; vertical-align: text-bottom; display: inline">
     </a>
     <a href="https://julialang.org/">		
-    <img src="$(SLASH_PREPATH)/assets/julia-logo.svg" style="margin-left:1em; width: 80px; height: auto; vertical-align: middle; display: inline">
+    <img src="$(SLASH_PREPATH)/assets/julia-logo.svg" style="margin-left:1em; width: 80px; height: auto; vertical-align: text-top; display: inline">
     </a>
-    <div style="line-height:38px; font-weight: bold; margin-bottom: 0.5em; opacity: 0.6"> $(TERM) | $(INSTITUTION)</div>
-    <h1><a href="https://www.isel.pt/en/mee/electrical-machines-design" style="line-height:38px">$(TITLE)</a></h1>		
-    <h2><a href="$(SLASH_PREPATH)/notebooks/">
-    <img src="$(SLASH_PREPATH)/Pluto_inv.png" style="width: 70px; height: auto; vertical-align: middle"> $(SUBTITLE)</a></h2>
-    <div style="line-height:38px; font-size: 15px; opacity: 0.85"><!--by--> $(INSTRUCTORS)</div>
+    <div style="font-weight: bold; margin-bottom: 0.5em; opacity: 0.6"> $(TERM) | $(INSTITUTION)</div>
+    <h1><a href="https://www.isel.pt/en/mee/electrical-machines-design">$(TITLE)</a></h1>		
+    <h2>$(SUBTITLE)</h2>
+    <div style="line-height:28px; font-size: 15px; opacity: 0.85"><!--by--> $(INSTRUCTORS)</div>
     </div>
     <br>
     <style>
