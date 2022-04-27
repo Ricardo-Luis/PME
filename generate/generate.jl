@@ -254,7 +254,7 @@ function sidebar_code(book_model)
     <div class="sidebar-about">
     <br>
     <a href="https://www.isel.pt/">
-    <img src="$(SLASH_PREPATH)/isel_logo.png" style="width: 170px; height: auto; vertical-align: middle; display: inline">
+    <img src="$(SLASH_PREPATH)/isel_logo.png" style="width: 170px; height: auto; vertical-align: text-bottom; display: inline">
     </a>
     <a href="https://julialang.org/">		
     <img src="$(SLASH_PREPATH)/assets/julia-logo.svg" style="margin-left:1em; width: 80px; height: auto; vertical-align: text-top; display: inline">
@@ -262,10 +262,10 @@ function sidebar_code(book_model)
     <div style="line-height:38px; font-weight: bold; margin-bottom: 0.5em; opacity: 0.6"> $(TERM) | $(INSTITUTION)</div>
     <h1><a href="https://www.isel.pt/en/mee/electrical-machines-design" style="line-height:38px">$(TITLE)</a></h1>		
     <h2><a href="https://github.com/fonsp/Pluto.jl">
-    <img src="$(SLASH_PREPATH)/Pluto_inv.png" style="width: 50px; height: auto; vertical-align: middle"></a> · $(SUBTITLE)</h2>
+    <img src="$(SLASH_PREPATH)/Pluto_inv.png" style="width: 70px; height: auto; vertical-align: middle"></a> · reactive notebooks<!--$(SUBTITLE)--></h2>
     <div style="line-height:38px; font-size: 15px; opacity: 0.85"><!--by--> $(INSTRUCTORS)</div>
     </div>
-    <!--<br>-->
+    <!--<br>
     <style>
     </style>
     <nav class="sidebar-nav" style="opacity: 0.9">
