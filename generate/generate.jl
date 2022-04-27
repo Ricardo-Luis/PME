@@ -254,10 +254,10 @@ function sidebar_code(book_model)
     <div class="sidebar-about">
     <br>
     <a href="https://www.isel.pt/">
-    <img src="$(SLASH_PREPATH)/isel_logo.png" style="width: 170px; height: auto; vertical-align: text-bottom; display: inline">
+    <img src="$(SLASH_PREPATH)/isel_logo.png" style="width: 170px; height: auto; vertical-align: middle; display: inline">
     </a>
     <a href="https://julialang.org/">		
-    <img src="$(SLASH_PREPATH)/assets/julia-logo.svg" style="margin-left:1em; width: 80px; height: auto; vertical-align: text-top; display: inline">
+    <img src="$(SLASH_PREPATH)/assets/julia-logo.svg" style="margin-left:1em; width: 80px; height: auto; vertical-align: middle; display: inline">
     </a>
     <div style="line-height:38px; font-weight: bold; margin-bottom: 0.5em; opacity: 0.6"> $(TERM) | $(INSTITUTION)</div>
     <h1><a href="https://www.isel.pt/en/mee/electrical-machines-design" style="line-height:38px">$(TITLE)</a></h1>		
