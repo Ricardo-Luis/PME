@@ -262,7 +262,7 @@ function sidebar_code(book_model)
     <div style="font-weight: bold; margin-bottom: 0.5em; opacity: 0.6"> $(TERM) | $(INSTITUTION)</div>
     <h1><a href="https://www.isel.pt/en/mee/electrical-machines-design">$(TITLE)</a></h1>
     <h2>$(SUBTITLE)<a href="https://github.com/fonsp/Pluto.jl">
-    <img src="$(SLASH_PREPATH)/Pluto.svg" style="width: 65px; height: auto; vertical-align: baseline; display: inline"></a></h2>
+    <img src="$(SLASH_PREPATH)/Pluto_inv.png" style="width: 65px; height: auto; vertical-align: text-bottom"></a></h2>
     <div style="line-height:18px; font-size: 15px; opacity: 0.85"><!--by--> $(INSTRUCTORS)</div>
     </div>
     <br>
