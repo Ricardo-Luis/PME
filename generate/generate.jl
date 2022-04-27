@@ -55,16 +55,16 @@ md"""
 """
 
 # ╔═╡ 2bee2fc7-3322-457f-a835-028c80eaf059
-TITLE = "A Great Course"
+TITLE = "Electrical Machines Design"
 
 # ╔═╡ a0057e4c-0bcf-4970-8a2b-0412ad5af510
-SUBTITLE = "Content and Code"
+SUBTITLE = "Interactive Pluto.jl notebooks"
 
 # ╔═╡ 4be56e57-fea0-4fbe-9659-44bed594b1b2
-INSTITUTION = "University of Greatness"
+INSTITUTION = "DEEEA·MEE"
 
 # ╔═╡ ab7186a4-2287-41da-a939-70f142bfeacd
-TERM = "Spring 2022"
+TERM = "2022·2023"
 
 # ╔═╡ 83130e69-9b67-44b5-ad32-500162abc0d2
 md"""
@@ -210,8 +210,8 @@ end
 
 # ╔═╡ 3e93e57c-3660-416f-9874-d43abf99e60e
 INSTRUCTORS = [
-	(name = "Person 1", href = ""),
-	(name = "Person 2", href = "")
+	(name = "Ricardo Luís", href = "/")#,
+	#(name = "Person 2", href = "")
 ] |> instructors
 
 # ╔═╡ feaed8af-05d0-4b80-9f69-8f827f9343a8
@@ -253,11 +253,16 @@ function sidebar_code(book_model)
     <div class="container sidebar-sticky">
     <div class="sidebar-about">
     <br>
-    <img src="$(SLASH_PREPATH)/assets/julia-logo.svg" style="margin-left:1em; width: 80px; height: auto; display: inline">
-    <div style="font-weight: bold; margin-bottom: 0.5em"><a href="$(SLASH_PREPATH)/semesters/">$(TERM)</a> <span style="opacity: 0.6;">| $(INSTITUTION)</span></div>
-    <h1><a href="$(SLASH_PREPATH)/">$(TITLE)</a></h1>
+    <a href="https://www.isel.pt/">
+    <img src="$(SLASH_PREPATH)/isel_logo.png" style="width: 170px; height: auto; vertical-align: middle; display: inline">
+    </a>
+    <a href="https://julialang.org/">		
+    <img src="$(SLASH_PREPATH)/assets/julia-logo.svg" style="margin-left:1em; width: 80px; height: auto; vertical-align: middle; display: inline">
+    </a>
+    <div style="font-weight: bold; margin-bottom: 0.5em; opacity: 0.6"> $(TERM) | $(INSTITUTION)</div>
+    <h1><a href="https://www.isel.pt/en/mee/electrical-machines-design">$(TITLE)</a></h1>
     <h2>$(SUBTITLE)</h2>
-    <div style="line-height:18px; font-size: 15px; opacity: 0.85">by $(INSTRUCTORS)</div>
+    <div style="line-height:18px; font-size: 15px; opacity: 0.85"><!--by--> $(INSTRUCTORS)</div>
     </div>
     <br>
     <style>
@@ -268,7 +273,7 @@ function sidebar_code(book_model)
     <br>
     $(map(enumerate(book_model)) do (chapter_number, chap)
 		@htl("""
-		<div class="course-section">Module $(chapter_number): $(chap.title)</div>
+		<div class="course-section"><!--Module--> $(chapter_number): $(chap.title)</div>
 		
 		$(map(enumerate(chap.contents)) do (section_number, section)
 
