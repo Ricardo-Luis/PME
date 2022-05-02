@@ -261,7 +261,7 @@ function sidebar_code(book_model)
     </a>
     <div style="font-weight: bold; margin-bottom: 0.5em; opacity: 0.6"> $(TERM) | $(INSTITUTION)</div>
     <h1><a href="https://www.isel.pt/en/mee/electrical-machines-design">$(TITLE)</a></h1>		
-    <h2> $(SUBTITLE)</h2>
+    <h3> $(SUBTITLE)</h3>
     <div style="line-height:28px; font-size: 15px; opacity: 0.85"><!--by--> $(INSTRUCTORS)</div>
     </div>
     <br>
