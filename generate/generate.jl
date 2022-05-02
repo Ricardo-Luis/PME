@@ -261,9 +261,9 @@ function sidebar_code(book_model)
     </a>
     <div style="font-weight: bold; margin-bottom: 0.5em; opacity: 0.6"> $(TERM) | $(INSTITUTION)</div>
     <h1><a href="https://www.isel.pt/en/mee/electrical-machines-design">$(TITLE)</a></h1>		
-    <h1 <a href="https://juliapackages.com/p/pluto">		
+    <h1 style="font-size: 14px"><a href="https://juliapackages.com/p/pluto">		
     <img src="$(SLASH_PREPATH)/Pluto_inv.png" style="margin-left:1em; width: auto; height: 15px; vertical-align: middle; display: inline">
-    </a> style="font-size: 14px"><em>$(SUBTITLE)</em></h1>
+    </a><em>$(SUBTITLE)</em></h1>
     <div style="line-height:28px; font-size: 15px; opacity: 0.85"><!--by--> $(INSTRUCTORS)</div>
     </div>
     <br>
