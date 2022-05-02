@@ -58,7 +58,7 @@ md"""
 TITLE = "Electrical Machines Design"
 
 # ╔═╡ a0057e4c-0bcf-4970-8a2b-0412ad5af510
-SUBTITLE = "Pluto.jl · reactive notebooks"
+SUBTITLE = " · reactive notebooks"
 
 # ╔═╡ 4be56e57-fea0-4fbe-9659-44bed594b1b2
 INSTITUTION = "DEEEA · MEE"
@@ -261,9 +261,9 @@ function sidebar_code(book_model)
     </a>
     <div style="font-weight: bold; margin-bottom: 0.5em; opacity: 0.6"> $(TERM) | $(INSTITUTION)</div>
     <h1><a href="https://www.isel.pt/en/mee/electrical-machines-design">$(TITLE)</a></h1>		
-    <h1><a href="https://juliapackages.com/p/pluto">		
-    <img src="$(SLASH_PREPATH)/Pluto_inv.png" style="margin-left:1em; width: auto; height: 14px; vertical-align: middle; display: inline; font-size: 14px; font-weight: bold">
-    </a><em>$(SUBTITLE)</em></h1>
+    <h1 <a href="https://juliapackages.com/p/pluto">		
+    <img src="$(SLASH_PREPATH)/Pluto_inv.png" style="margin-left:1em; width: auto; height: 15px; vertical-align: middle; display: inline">
+    </a> style="font-size: 14px"><em>$(SUBTITLE)</em></h1>
     <div style="line-height:28px; font-size: 15px; opacity: 0.85"><!--by--> $(INSTRUCTORS)</div>
     </div>
     <br>
