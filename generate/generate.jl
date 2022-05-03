@@ -264,7 +264,7 @@ function sidebar_code(book_model)
     <h1 style="font-size: 14px; opacity: 0.90"><a href="https://juliapackages.com/p/pluto">		
     <img src="$(SLASH_PREPATH)/Pluto_trp.png" style="width: auto; height: 18px; vertical-align: top; display: inline">
     </a> ·<em> $(SUBTITLE)</em></h1>
-    <div style="line-height:28px; font-size: 15px; opacity: 0.85"><!--by--> $(INSTRUCTORS)</div>
+    <div style="line-height:18px; font-size: 15px; opacity: 0.85"><!--by--> $(INSTRUCTORS)</div>
     </div>
     <br>
     <style>
