@@ -4,7 +4,7 @@
 
 [official Canvas course page](https://canvas.xxx.xx/courses/xxxxx)
 
-## Class schedule
+## Class  schedule
 
 | Lecture | Title | Date | Lecturer | Notebooks | Reading |
 |:-------:|:-----:|:----:|:--------:|:---------:|:-------:|
